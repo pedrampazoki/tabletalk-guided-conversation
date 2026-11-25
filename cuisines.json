@@ -1,0 +1,7 @@
+[
+  { "id": "italian", "name": "Italian" },
+  { "id": "japanese", "name": "Japanese" },
+  { "id": "mexican", "name": "Mexican" },
+  { "id": "indian", "name": "Indian" },
+  { "id": "thai", "name": "Thai" }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "invite-sofia",
+    "fromPersonId": "sofia",
+    "venueId": "juniper-osteria",
+    "date": "2026-12-04",
+    "time": "19:00",
+    "message": "A little pasta and a glass of red? I'd love to meet you at Juniper.",
+    "status": "awaiting"
+  },
+  {
+    "id": "invite-theo-backup",
+    "fromPersonId": "theo",
+    "venueId": "amber-room",
+    "date": "2026-12-03",
+    "time": "20:00",
+    "message": "Fancy splitting a bottle at The Amber Room? I'll bring the conversation.",
+    "status": "awaiting"
+  }
+]

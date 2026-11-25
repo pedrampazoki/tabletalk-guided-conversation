@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraveMatch — Guided Conversation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button id="backBtn" class="icon-btn" aria-label="Back">←</button>
+      <div>
+        <div class="brand">CraveMatch</div>
+        <div class="subtitle">Guided Conversation Prototype</div>
+      </div>
+      <button id="testerBtn" class="tester-link">Tester</button>
+    </header>
+
+    <main id="app" class="content"></main>
+
+    <nav class="bottom-nav">
+      <button data-nav="discover" class="nav-btn active">Discover</button>
+      <button data-nav="invitations" class="nav-btn">Invitations <span id="inviteBadge" class="badge"></span></button>
+      <button data-nav="sent" class="nav-btn">Sent</button>
+    </nav>
+  </div>
+
+  <dialog id="testerDialog">
+    <form method="dialog" class="tester-card">
+      <div class="tester-head">
+        <strong>Tester panel</strong>
+        <button class="icon-btn">✕</button>
+      </div>
+      <p class="muted">Use this only during testing. It tracks navigation so you can later calculate lostness.</p>
+      <div class="tester-grid">
+        <div><span>Total screen visits</span><strong id="totalVisits">0</strong></div>
+        <div><span>Different screens</span><strong id="uniqueVisits">0</strong></div>
+      </div>
+      <div class="tester-actions">
+        <button type="button" id="copyLogBtn" class="secondary">Copy visit log</button>
+        <button type="button" id="resetAllBtn" class="danger">Reset prototype</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
